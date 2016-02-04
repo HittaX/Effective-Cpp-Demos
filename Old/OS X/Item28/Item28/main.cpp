@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     Point coord2(100,100);
     Rectangle rec(coord1,coord2);
     rec.getRect();
-    rec.upperLeft().setX(50);
+//    rec.upperLeft().setX(50);
     rec.getRect();
     
     return 0;

@@ -30,11 +30,11 @@ public:
     {
         pData = make_shared<RectData>(c1,c2);
     }
-    Point& upperLeft() const{
+    const Point& upperLeft() const{
         return pData->ulhc;
     }
     
-    Point& lowerRight() const{
+    const Point& lowerRight() const{
         return pData->lrhc;
     }
     
